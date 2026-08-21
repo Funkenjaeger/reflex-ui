@@ -1,3 +1,16 @@
+> ## ⚠️ Deprecated — development has moved to the `reflex` monorepo
+>
+> **This repository is archived and no longer developed.** On 2026-08-17 the UI (this repository)
+> and the firmware ([reflex-fw](https://github.com/Funkenjaeger/reflex-fw)) were merged into a single repository,
+> with the full history of both preserved:
+>
+> **→ https://github.com/Funkenjaeger/reflex** — this code now lives under `ui/`.
+>
+> Nothing here will be updated. Branch names are unchanged there; this repository's tags carry a `ui-` prefix.
+> This archive is kept read-only as the historical record and the rollback point for the merge.
+
+---
+
 # Reflex UI
 
 A **Kivy-based Digital Read-Out (DRO) and Electronic Leadscrew (ELS) controller UI** for lathes, designed to run on Raspberry Pi or desktop environments (Windows, macOS, Linux). Interfaces via RS-485/Modbus RTU with a dedicated STM32-based control board running the associated [Reflex firmware](https://github.com/Funkenjaeger/reflex-fw)
